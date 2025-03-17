@@ -30,7 +30,6 @@ header li a {
     color: #f5f6fa;
     text-decoration: none;
 
-
 }
 
 .container {
@@ -65,26 +64,10 @@ header li a {
 
 }
 
-.article article header h5 {
-
-    font-style: italic;
-    color: rgb(48, 48, 48);
-
-}
-
 .article article p,
 .article article a {
 
     font-family: Arial, Helvetica, sans-serif;
-
-
-}
-
-.article article a {
-
-    text-align: center;
-    border-radius: 10px;
-
 
 }
 
@@ -129,13 +112,35 @@ section h2,
     text-decoration: none;
     font-weight: bold;
     margin-top: 8px;
-    width: 100%;
 
 }
 
 .article article a:hover {
 
     text-decoration: underline;
+
+}
+
+#sports {
+
+    background-color: rgb(0, 255, 0, 0.1);
+
+}
+
+#sports .article article a {
+
+    background-color: #009432;
+
+}
+
+#economy {
+    background-color: #f8f59f;
+
+}
+
+#economy .article article a {
+
+    background-color: #ff9f1a;
 
 }
 
